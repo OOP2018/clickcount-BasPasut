@@ -44,7 +44,7 @@ public class CounterView implements java.util.Observer {
 		// The label that will show the counter value.
 		label = new Label("   ");
 		// make the label big enough
-		label.setPrefWidth(144);
+		label.setPrefWidth(250);
 		//TODO Make the text BIG. Use setFont to create a font.
 		//TODO Be careful to import the correct Font class (not java.awt.Font).
 		label.setFont(new Font("Arial", 80.0));
